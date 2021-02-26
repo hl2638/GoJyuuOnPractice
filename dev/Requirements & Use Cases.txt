@@ -1,0 +1,7 @@
+[Requirements]
+Learn GoJyuOn: check writing, sound.
+Search: search by Romaji or Kana.
+Practice GoJyuOn: random quiz.
+
+==========
+[Use Cases]

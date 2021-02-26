@@ -1,0 +1,3 @@
+m4a to wav:
+ffmpeg -i <filename>.m4a <filename>.wav
+======
