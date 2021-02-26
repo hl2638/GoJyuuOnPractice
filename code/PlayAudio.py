@@ -1,10 +1,14 @@
-"""PyAudio Example: Play a wave file (callback version)."""
+"""
+PyAudio Example: Play a wave file (callback version).
+Code referenced from PyAudio Documentation.
+"""
 
 import pyaudio
 import wave
 import time
 import threading
 import sys
+
 
 # filename = "A.wav"
 
@@ -48,4 +52,3 @@ def play_audio(filename, block=False):
     t.start()
     if block:
         t.join()
-

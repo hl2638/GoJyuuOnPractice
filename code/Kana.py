@@ -12,3 +12,6 @@ class Kana:
 
     def getRoma(self):
         return self.roma
+
+    def getInfo(self):
+        return "[" + self.hira + ", " + self.kata + ", " + self.roma + "]"
