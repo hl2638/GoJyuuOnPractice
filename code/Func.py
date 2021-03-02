@@ -1,5 +1,6 @@
 import PlayAudio
 from Kana import Kana
+from config import *
 import random
 import time
 
@@ -34,8 +35,16 @@ def showFlashCard(kana, mode=None):
     print("==========")
 
 
+def playSound(kana):
+    roma = kana.getRoma().lower()
+    audio_path = AUDIO_PATH
+    file = audio_path + roma + '.wav'
+
+    PlayAudio.AudioPlayer().play_audio(file)
+
+
 if __name__ == '__main__':
-    kana_A = Kana('A', 'あ', 'ア')
-    showFlashCard(kana_A, mode="HIRA")
+    kana_A = Kana('a', 'あ', 'ア')
+    playSound(kana_A)
 
 

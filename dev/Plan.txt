@@ -1,0 +1,6 @@
+TODO:
+[2/28][High][Learn] Learn how to handle events in Tkinter
+[2/28][High][Add] Try to write a skeleton of the program with the basic logic.
+[Medium][Improve] Initial and minimum size of each frame
+
+[Low][Improve]When added GUI, change flashcard from entering to multiple choices

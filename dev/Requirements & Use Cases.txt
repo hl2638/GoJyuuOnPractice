@@ -2,6 +2,12 @@
 Learn GoJyuOn: check writing, sound.
 Search: search by Romaji or Kana.
 Practice GoJyuOn: random quiz.
-
+Display GoJyuOnHyo: display the table.
 ==========
 [Use Cases]
+- Welcome Page
+- Main menu
+- Display GoJyuOn Table
+- Search for Kana
+- Random Quiz
+- Chat Bot
