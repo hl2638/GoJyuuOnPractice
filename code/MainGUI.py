@@ -28,10 +28,10 @@ class MainGUI(Tk):
 
     def initLayout(self):
         self.title("五十音图for小猫咪")
-        self.window_width = 600
-        self.window_height = 800
+        self.window_width = 500
+        self.window_height = 400
         self.minsize(self.window_width, self.window_height)
-        # self.geometry("%sx%s" % (self.window_width, self.window_height))
+        self.geometry("%sx%s" % (self.window_width, self.window_height))
         self.configure(bg='#33BAFF', padx=50, pady=50)
         """
         Main Layout: background frame and main frame container. 
@@ -73,8 +73,9 @@ class TablePage(ContentFrame):
         """
         # TODO: Mode: Single/Combined
         # TODO: add a button to switch kana mode.
+        # TODO: add a back button.
         # TODO: add descriptive text (click to view kana detail)
-        # TODO: add click to play sound/click to view detail switch               EEEEEHY
+        # TODO: add click to play sound/click to view detail switch
         kanaTable = []
         for row in kanaTableMap:
             new_row = [None if kana is None else master.backend.romaTable[kana] for kana in row]
